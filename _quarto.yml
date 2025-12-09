@@ -29,16 +29,16 @@ project:
 
 website:
   page-navigation: true
-  title: "STA 240 Fall 2025"
-  description: "Homepage for STA 240 Probability for Statistical Inference, Modeling, and Data Analysis at Duke University, Fall 2025."
-  site-url: "https://sta240-f25.github.io/"
+  title: "STA 240 Spring 2026"
+  description: "Homepage for STA 240 Probability for Statistical Inference"
+  site-url: "https://anyakatsevich.github.io/sta240-s26.github.io/"
 
   open-graph: true
 
   #draft-mode: unlinked
 
   sidebar:
-    background: "#FFFB71"
+    background: "#5E157D"
     logo: "img/logo.png"
     pinned: true
     align: center
@@ -202,7 +202,7 @@ website:
   page-footer:
     right: 'This page is built with [Quarto](https://quarto.org/).'
     left: "&copy; Copyright 2025 John Zito"
-    background: "#FFFB71"
+    background: "#5E157D"
 
 format: 
   html:
