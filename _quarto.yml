@@ -50,10 +50,10 @@ website:
         href: https://go.canvas.duke.edu/
         text: "Canvas"
       - icon: people
-        href: https://edstem.org/us/courses/80868/discussion
+        href: https://edstem.org/us/courses/89558/discussion
         text: "Ed Discussion"
       - icon: file-arrow-up
-        href: https://www.gradescope.com/courses/1071176
+        href: https://www.gradescope.com/courses/1195780
         text: "Gradescope"
 
     style: docked
