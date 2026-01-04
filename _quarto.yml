@@ -111,7 +111,7 @@ website:
           - href: explainers/lineplot.qmd
             text: Plotting lines
           - href: explainers/sample.qmd
-            text: "`sample`"
+            text: sample
           - href: explainers/if-else.qmd
             text: if-else and logic
           - href: explainers/loops.qmd
