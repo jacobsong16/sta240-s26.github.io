@@ -90,10 +90,10 @@ website:
             text: Limits and continuity
           - href: math/series.qmd
             text: Infinite series
-          - href: math/gamma-function.qmd
-            text: Gamma function
-          - href: math/massage-and-squint.qmd
-            text: Massage and squint
+          # - href: math/gamma-function.qmd
+          #   text: Gamma function
+          # - href: math/massage-and-squint.qmd
+          #   text: Massage and squint
       - section: "R Helpers"
         contents:
           - href: explainers/setup.qmd
@@ -128,26 +128,26 @@ website:
             text: Summary statistics
           - href: explainers/histogram.qmd
             text: Histograms
-      - section: "Distribution Families"
-        contents:
-          - href: distributions/discrete-binomial.qmd
-            text: Binomial
-          - href: distributions/discrete-geometric.qmd
-            text: Geometric
-          - href: distributions/discrete-hypergeometric.qmd
-            text: Hypergeometric
-          - href: distributions/discrete-poisson.qmd
-            text: Poisson
-          - href: distributions/continuous-uniform.qmd
-            text: Continuous uniform
-          - href: distributions/continuous-normal.qmd
-            text: Normal
-          - href: distributions/continuous-gamma.qmd
-            text: Gamma
-          - href: distributions/continuous-inverse-gamma.qmd
-            text: Inverse gamma
-          - href: distributions/continuous-beta.qmd
-            text: Beta
+      # - section: "Distribution Families"
+      #   contents:
+      #     - href: distributions/discrete-binomial.qmd
+      #       text: Binomial
+      #     - href: distributions/discrete-geometric.qmd
+      #       text: Geometric
+      #     - href: distributions/discrete-hypergeometric.qmd
+      #       text: Hypergeometric
+      #     - href: distributions/discrete-poisson.qmd
+      #       text: Poisson
+      #     - href: distributions/continuous-uniform.qmd
+      #       text: Continuous uniform
+      #     - href: distributions/continuous-normal.qmd
+      #       text: Normal
+      #     - href: distributions/continuous-gamma.qmd
+      #       text: Gamma
+      #     - href: distributions/continuous-inverse-gamma.qmd
+      #       text: Inverse gamma
+      #     - href: distributions/continuous-beta.qmd
+      #       text: Beta
       - section: "Problem Sets"
         contents:
           - href: problems/pset-0.qmd
@@ -201,7 +201,7 @@ website:
             
   page-footer:
     right: 'This page is built with [Quarto](https://quarto.org/).'
-    left: "&copy; Copyright 2025 John Zito"
+    left: "&copy; Copyright 2026 John Zito and Anya Katsevich"
     background: "#5E157D"
 
 format: 
