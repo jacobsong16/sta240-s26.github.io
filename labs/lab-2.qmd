@@ -16,14 +16,14 @@ The template for this assignment is in the Canvas files. You will submit solutio
 
 - the `R` code that runs the simulation and approximates the probability;
 - the one line of code that uses `R` as a calculator to compute the exact decimal probability based on your mathematical solution;
-- A little [math formula](https://sta240-f25.github.io/explainers/latex.html) (between double dollar signs in your .`qmd`) that summarizes the final answer.
+- A little [math formula](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/latex.html) (between double dollar signs in your .`qmd`) that summarizes the final answer.
 
 Tasks 0 and 1 below provide a model for how this looks: simulation, calculation, formula for $P(A)$.
 :::
 
 ## Task 0 (review)
 
-Consider this question from [Lab 1](https://sta240-f25.github.io/labs/lab-1.html#task-3-you-do-it):
+Consider this question from [Lab 1](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-1.html#task-3-you-do-it):
 
 > a five-card hand is randomly dealt to you from a well-shuffled deck. What is the probability that the hand contains *at least* one ace?
 

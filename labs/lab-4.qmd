@@ -84,7 +84,7 @@ So, the question of "where did the probabilities come from?" is sadly beyond the
 ::: callout-tip
 ## Before you start
 
-Read the explainer on [random number seeds](https://sta240-f25.github.io/explainers/rng-seed.html), and use them in your lab write-up today.
+Read the explainer on [random number seeds](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/rng-seed.html), and use them in your lab write-up today.
 :::
 
 # Baby's first language model

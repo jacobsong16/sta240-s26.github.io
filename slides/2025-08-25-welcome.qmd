@@ -737,11 +737,11 @@ Sound good?
 
 ::::: {.columns .v-center-container}
 ::: {.column width="30%"}
-{{< qrcode https://sta240-f25.github.io/ width=300 height=300 >}}
+{{< qrcode https://anyakatsevich.github.io/sta240-s26.github.io/ width=300 height=300 >}}
 :::
 
 ::: {.column width="70%"}
-<https://sta240-f25.github.io/>
+<https://anyakatsevich.github.io/sta240-s26.github.io/>
 :::
 :::::
 
@@ -861,7 +861,7 @@ This is essentially a pencil-and-paper math class. We will use all of the basic 
 
 . . .
 
-**REVIEW**: [Problem Set 0](https://sta240-f25.github.io/problems/pset-0.html) is due 5PM Friday September 5.
+**REVIEW**: [Problem Set 0](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-0.html) is due 5PM Friday September 5.
 
 . . .
 
@@ -869,7 +869,7 @@ This is essentially a pencil-and-paper math class. We will use all of the basic 
 ## This is not sink-or-swim.
 
 - Lab on Thursday August 28 is a review session and work period for this assignment;
-- The course page has a [math review section](https://sta240-f25.github.io/math/differentiation.html) you can refer to.
+- The course page has a [math review section](https://anyakatsevich.github.io/sta240-s26.github.io/math/differentiation.html) you can refer to.
 :::
 
 # So, what are we studying, anyway?

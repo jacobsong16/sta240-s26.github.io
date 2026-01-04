@@ -140,7 +140,7 @@ Two types of errors are possible in a situation like this: treating a disease th
 
 ## Task 5
 
-So, the show's answer, while wrong, could still be potentially useful upper bound on the true probability. Neat! But how wrong is it, even? To get a sense of this, [use `R`](https://sta240-f25.github.io/explainers/lineplot.html) to create some line plots with the prevalence $p\in[0,\, 1]$ on the horizontal axis and the true and approximate probabilities for different values of $f_-$ and $f_+$ on the vertical axis. Mix-and-match $f_-,\, f_+\in\{0.1,\, 0.2\}$, and comment on the difference between the two curves.
+So, the show's answer, while wrong, could still be potentially useful upper bound on the true probability. Neat! But how wrong is it, even? To get a sense of this, [use `R`](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/lineplot.html) to create some line plots with the prevalence $p\in[0,\, 1]$ on the horizontal axis and the true and approximate probabilities for different values of $f_-$ and $f_+$ on the vertical axis. Mix-and-match $f_-,\, f_+\in\{0.1,\, 0.2\}$, and comment on the difference between the two curves.
 
 
 ::: {.callout-warning collapse="true"}

@@ -363,7 +363,7 @@ $$
 \hat{\theta}_n=\underset{\theta}{\arg\max}\,L(\theta;\,X_{1:n})=\underset{\theta}{\arg\max}\,\prod_{i=1}^nf(X_i;\,\theta).
 $$
 
-In the app above you can perform the maximization by eye, but in general we do it mathematically. In other words, we reduce the problem of estimation to a Calc 1 problem: take the derivative, set it equal to zero, solve for the critical points, classify them using the second derivative test, all that jazz. See [here](https://sta240-f25.github.io/math/differentiation.html#optimization) if you want a refresher on how that goes.
+In the app above you can perform the maximization by eye, but in general we do it mathematically. In other words, we reduce the problem of estimation to a Calc 1 problem: take the derivative, set it equal to zero, solve for the critical points, classify them using the second derivative test, all that jazz. See [here](https://anyakatsevich.github.io/sta240-s26.github.io/math/differentiation.html#optimization) if you want a refresher on how that goes.
 
 On a technical level, it is important to recognize that maximizing the likelihood function will give you the same result as maximizing the log-likelihood function because the natural-log is an order-preserving function:
 

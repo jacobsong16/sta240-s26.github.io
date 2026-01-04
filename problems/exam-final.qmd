@@ -37,10 +37,10 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-01-probability-spaces.pdf) on axioms and rules;
-- [Problem Set 1](https://sta240-f25.github.io/problems/pset-1.html): problems 4 - 8;
-- [Problem Set 2](https://sta240-f25.github.io/problems/pset-2.html): problems 2 - 3;
-- [Midterm 1 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-1.html#probability-spaces): problems 1 - 4;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-01-probability-spaces.pdf) on axioms and rules;
+- [Problem Set 1](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-1.html): problems 4 - 8;
+- [Problem Set 2](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-2.html): problems 2 - 3;
+- [Midterm 1 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-1.html#probability-spaces): problems 1 - 4;
 - Midterm 1: problem 1.
 
 # 2. Counting
@@ -55,13 +55,13 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-02-counting-theory.pdf) on counting theory;
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-03-counting-examples.pdf) with birthday problem and other worked examples;
-- [Lab 2](https://sta240-f25.github.io/labs/lab-2.html) worked examples;
-- [Problem Set 1](https://sta240-f25.github.io/problems/pset-1.html): problems 9 - 10;
-- [Problem Set 2](https://sta240-f25.github.io/problems/pset-2.html): problems 4 - 8;
-- [Problem Set 3](https://sta240-f25.github.io/problems/pset-3.html): problems 2 - 3;
-- [Midterm 1 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-1.html#counting): problems 5 - 7;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-02-counting-theory.pdf) on counting theory;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-03-counting-examples.pdf) with birthday problem and other worked examples;
+- [Lab 2](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-2.html) worked examples;
+- [Problem Set 1](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-1.html): problems 9 - 10;
+- [Problem Set 2](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-2.html): problems 4 - 8;
+- [Problem Set 3](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-3.html): problems 2 - 3;
+- [Midterm 1 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-1.html#counting): problems 5 - 7;
 - Midterm 1: problems 2 - 3;
 - Odd-numbered exercises in DeGroot & Schervish Chapters 1.6 - 1.8, 1.12.
 
@@ -78,12 +78,12 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-04-conditional-probability.pdf) with worked examples;
-    - The lil' [app](https://sta240-f25.github.io/apps/disease-testing.html) on disease testing;
-- [Problem Set 2](https://sta240-f25.github.io/problems/pset-2.html): problems 9 - 10;
-- [Problem Set 3](https://sta240-f25.github.io/problems/pset-3.html): problems 4 - 8;
-- [Problem Set 4](https://sta240-f25.github.io/problems/pset-4.html): problems 2 - 3;
-- [Midterm 1 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-1.html#conditional-probability): problems 8 - 10;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-04-conditional-probability.pdf) with worked examples;
+    - The lil' [app](https://anyakatsevich.github.io/sta240-s26.github.io/apps/disease-testing.html) on disease testing;
+- [Problem Set 2](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-2.html): problems 9 - 10;
+- [Problem Set 3](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-3.html): problems 4 - 8;
+- [Problem Set 4](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-4.html): problems 2 - 3;
+- [Midterm 1 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-1.html#conditional-probability): problems 8 - 10;
 - Midterm 1: problems 3 - 5;
 - Odd-numbered exercises in DeGroot & Schervish Chapter 2.
 
@@ -100,15 +100,15 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-05-random-variables.pdf) introducing random variables;
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-06-discrete-families.pdf) on special families of discrete random variables;
-- [Lecture notes](https://sta240-f25.github.io/lecture-notes/sta240-notes-07-expectation.pdf) on expected value;
-- [Lab 5](https://sta240-f25.github.io/labs/lab-5.html) exercises;
-- [Problem Set 2](https://sta240-f25.github.io/problems/pset-2.html): problem 7;
-- [Problem Set 3](https://sta240-f25.github.io/problems/pset-3.html): problems 9 - 10;
-- [Problem Set 4](https://sta240-f25.github.io/problems/pset-4.html): problems 4 - 10;
-- [Midterm 1 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-1.html#discrete-random-variables): problems 11 - 12;
-- [Midterm 2 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-2.html#discrete-random-variables): problems 1 - 2;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-05-random-variables.pdf) introducing random variables;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-06-discrete-families.pdf) on special families of discrete random variables;
+- [Lecture notes](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-07-expectation.pdf) on expected value;
+- [Lab 5](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-5.html) exercises;
+- [Problem Set 2](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-2.html): problem 7;
+- [Problem Set 3](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-3.html): problems 9 - 10;
+- [Problem Set 4](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-4.html): problems 4 - 10;
+- [Midterm 1 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-1.html#discrete-random-variables): problems 11 - 12;
+- [Midterm 2 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-2.html#discrete-random-variables): problems 1 - 2;
 - Midterm 1: problem 6;
 - Midterm 2: problem 2.
 
@@ -126,11 +126,11 @@ If your final exam score is better than your lowest midterm score, I will replac
 ## Want more review?
 
 
-- Examples from [lecture](https://sta240-f25.github.io/lecture-notes/sta240-notes-10-absolutely-continuous.pdf);
-- [Lab 8](https://sta240-f25.github.io/labs/lab-8.html);
-- [Problem Set 5](https://sta240-f25.github.io/problems/pset-5.html): problems 2 - 8;
-- [Problem Set 6](https://sta240-f25.github.io/problems/pset-6.html): problems 1 - 2;
-- [Midterm 2 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-2.html#continuous-random-variables): problems 3 - 4;
+- Examples from [lecture](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-10-absolutely-continuous.pdf);
+- [Lab 8](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-8.html);
+- [Problem Set 5](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-5.html): problems 2 - 8;
+- [Problem Set 6](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-6.html): problems 1 - 2;
+- [Midterm 2 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-2.html#continuous-random-variables): problems 3 - 4;
 - Midterm 2: problem 1;
 - Odd-numbered exercises in DeGroot & Schervish Chapters 3.2, 5.6, 5.7.
 
@@ -147,12 +147,12 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- worked examples from [lecture](https://sta240-f25.github.io/lecture-notes/sta240-notes-11-moments.pdf); 
-- new theorems and examples from [lecture](https://sta240-f25.github.io/lecture-notes/sta240-notes-14-sums-and-averages.pdf) about updating MGFs under linear transformations;
-- [Problem Set 5](https://sta240-f25.github.io/problems/pset-5.html): problems 9 - 10;
-- [Problem Set 6](https://sta240-f25.github.io/problems/pset-6.html): problems 3 - 5;
-- [Problem Set 7](https://sta240-f25.github.io/problems/pset-7.html): problems 1 - 2;
-- [Midterm 2 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-2.html#moment-generating-function): problems 11 - 12;
+- worked examples from [lecture](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-11-moments.pdf); 
+- new theorems and examples from [lecture](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-14-sums-and-averages.pdf) about updating MGFs under linear transformations;
+- [Problem Set 5](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-5.html): problems 9 - 10;
+- [Problem Set 6](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-6.html): problems 3 - 5;
+- [Problem Set 7](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-7.html): problems 1 - 2;
+- [Midterm 2 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-2.html#moment-generating-function): problems 11 - 12;
 - Midterm 2: problem 2;
 - Odd-numbered exercises in DeGroot & Schervish Chapter 4.4.
 
@@ -169,9 +169,9 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lab 7](https://sta240-f25.github.io/labs/lab-7.html);
-- Problem Set 6: [problem 6](https://sta240-f25.github.io/problems/pset-6.html#problem-6);
-- Midterm 2 Study Guide: [problem 7](https://sta240-f25.github.io/problems/exam-midterm-2.html#problem-7);
+- [Lab 7](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-7.html);
+- Problem Set 6: [problem 6](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-6.html#problem-6);
+- Midterm 2 Study Guide: [problem 7](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-2.html#problem-7);
 - Midterm 2: problem 3;
 - Read DeGroot & Schervish Chapter 3.8 and do the odd-numbered exercises.
 
@@ -188,11 +188,11 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- jointly discrete examples from [lecture](https://sta240-f25.github.io/lecture-notes/sta240-notes-12-joint-discrete.pdf);
-- jointly contnuous examples from [lecture](https://sta240-f25.github.io/lecture-notes/sta240-notes-13-joint-continuous.pdf);
-- mixed Poisson-gamma example from [Lab 9](https://sta240-f25.github.io/labs/lab-9.html);
-- [Problem Set 6](https://sta240-f25.github.io/problems/pset-6.html): problems 7 - 10;
-- [Midterm 2 Study Guide](https://sta240-f25.github.io/problems/exam-midterm-2.html#joint-distributions): problems 8 - 9;
+- jointly discrete examples from [lecture](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-12-joint-discrete.pdf);
+- jointly contnuous examples from [lecture](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-13-joint-continuous.pdf);
+- mixed Poisson-gamma example from [Lab 9](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-9.html);
+- [Problem Set 6](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-6.html): problems 7 - 10;
+- [Midterm 2 Study Guide](https://anyakatsevich.github.io/sta240-s26.github.io/problems/exam-midterm-2.html#joint-distributions): problems 8 - 9;
 - Midterm 2: problem 4;
 - Odd-numbered exercises in DeGroot & Schervish Chapters 3.4 - 3.6.
 
@@ -209,9 +209,9 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lecture examples](https://sta240-f25.github.io/lecture-notes/sta240-notes-18-mle-examples.html);
-- [Lab 10](https://sta240-f25.github.io/labs/lab-10.html);
-- [Problem Set 7](https://sta240-f25.github.io/problems/pset-7.html): problems 3 - 4.
+- [Lecture examples](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-18-mle-examples.html);
+- [Lab 10](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-10.html);
+- [Problem Set 7](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-7.html): problems 3 - 4.
 
 
 # 10. Bayesian inference
@@ -230,8 +230,8 @@ If your final exam score is better than your lowest midterm score, I will replac
 
 ## Want more review?
 
-- [Lecture examples](https://sta240-f25.github.io/lecture-notes/sta240-notes-19-bayes.pdf);
-- [Lab 11](https://sta240-f25.github.io/labs/lab-11.html);
-- [Problem Set 7](https://sta240-f25.github.io/problems/pset-7.html): problems 5 - 6.
+- [Lecture examples](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-19-bayes.pdf);
+- [Lab 11](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-11.html);
+- [Problem Set 7](https://anyakatsevich.github.io/sta240-s26.github.io/problems/pset-7.html): problems 5 - 6.
 
 

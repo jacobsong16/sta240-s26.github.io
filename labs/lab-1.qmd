@@ -14,17 +14,17 @@ This class will introduce you to the basics of the `R` programming language, but
 
 During the semester, I will summarize the basic `R` skills we need in a series of concise "explainers" posted to the course webpage. Here's what we have so far:
 
-1. [Getting into RStudio](https://sta240-f25.github.io/explainers/setup.html);
-1. [Understanding the RStudio layout](https://sta240-f25.github.io/explainers/hello-rstudio.html);
-1. [Creating your lab write-ups with Quarto](https://sta240-f25.github.io/explainers/quarto.html);
-1. [Typing up pretty equations with Quarto](https://sta240-f25.github.io/explainers/latex.html);
-1. [Using `R` as a big calculator](https://sta240-f25.github.io/explainers/math.html);
-1. [Introduction to vectors](https://sta240-f25.github.io/explainers/vectors.html);
-1. [Plotting line graphs with the `curve` function](https://sta240-f25.github.io/explainers/lineplot.html);
-1. [Simulating random experiments with the `sample` function](https://sta240-f25.github.io/explainers/sample.html);
-1. [if-else and logical operations](https://sta240-f25.github.io/explainers/if-else.html);
-1. [for loops](https://sta240-f25.github.io/explainers/loops.html);
-1. [Vectorization](https://sta240-f25.github.io/explainers/vectorization.html).
+1. [Getting into RStudio](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/setup.html);
+1. [Understanding the RStudio layout](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/hello-rstudio.html);
+1. [Creating your lab write-ups with Quarto](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/quarto.html);
+1. [Typing up pretty equations with Quarto](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/latex.html);
+1. [Using `R` as a big calculator](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/math.html);
+1. [Introduction to vectors](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/vectors.html);
+1. [Plotting line graphs with the `curve` function](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/lineplot.html);
+1. [Simulating random experiments with the `sample` function](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/sample.html);
+1. [if-else and logical operations](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/if-else.html);
+1. [for loops](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/loops.html);
+1. [Vectorization](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/vectorization.html).
 
 Please dip into those as needed.
 

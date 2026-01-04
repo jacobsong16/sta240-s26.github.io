@@ -101,7 +101,7 @@ plot(N, S, pch = 19, cex = 0.25)
 
 # Task 5
 
-Plot a [histogram](https://sta240-f25.github.io/explainers/histogram.html) of the draws of $S$ by themselves.
+Plot a [histogram](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/histogram.html) of the draws of $S$ by themselves.
 
 ::: {.callout-warning collapse="true"}
 ## Solution
@@ -150,7 +150,7 @@ S\mid N=n &\sim \,???
 \end{aligned}
 $$
 
-*Conditional* on $n$, what is the distribution of $S$? You may find results from [yesterday's lecture](https://sta240-f25.github.io/lecture-notes/sta240-notes-14-sums-and-averages.pdf) helpful.
+*Conditional* on $n$, what is the distribution of $S$? You may find results from [yesterday's lecture](https://anyakatsevich.github.io/sta240-s26.github.io/lecture-notes/sta240-notes-14-sums-and-averages.pdf) helpful.
 
 ::: {.callout-warning collapse="true"}
 ## Solution

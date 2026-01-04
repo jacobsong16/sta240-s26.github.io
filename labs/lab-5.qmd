@@ -20,11 +20,11 @@ So, given a person's preferences, will they like my profile? Well, let's say tha
 
 The main skills you will practice today are plotting PMFs and computing probabilities in our special families of discrete probability distributions. You may find these new explainers helpful:
 
-- [Plotting points](https://sta240-f25.github.io/explainers/plot.html);
-- [Computing probabilities](https://sta240-f25.github.io/explainers/probabilities.html);
-- [Binomial distribution summary](https://sta240-f25.github.io/distributions/discrete-binomial.html);
-- [Geometric distribution summary](https://sta240-f25.github.io/distributions/discrete-geometric.html);
-- [Poisson distribution summary](https://sta240-f25.github.io/distributions/discrete-poisson.html);
+- [Plotting points](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/plot.html);
+- [Computing probabilities](https://anyakatsevich.github.io/sta240-s26.github.io/explainers/probabilities.html);
+- [Binomial distribution summary](https://anyakatsevich.github.io/sta240-s26.github.io/distributions/discrete-binomial.html);
+- [Geometric distribution summary](https://anyakatsevich.github.io/sta240-s26.github.io/distributions/discrete-geometric.html);
+- [Poisson distribution summary](https://anyakatsevich.github.io/sta240-s26.github.io/distributions/discrete-poisson.html);
 :::
 
 ## Task 1

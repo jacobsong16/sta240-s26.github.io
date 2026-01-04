@@ -40,7 +40,7 @@ f_X(x) &= e^{-x}, &&x\geq0.
 \end{aligned}
 $$
 
-One of our [math helpers](https://sta240-f25.github.io/math/logexp.html) displays the graph of the natural log and its inverse, the exponential. Consulting these, we note a few things:
+One of our [math helpers](https://anyakatsevich.github.io/sta240-s26.github.io/math/logexp.html) displays the graph of the natural log and its inverse, the exponential. Consulting these, we note a few things:
 
 - the natural log takes in strictly positive numbers and spits out both positive *and* negative numbers;
 - both the natural log and the exponential are strictly increasing. In other words, they are *order-preserving*.
@@ -89,7 +89,7 @@ b.  Simulate `n = 5000` draws of $Y$. Plot a histogram, and add a line plot of t
 ::: {.callout-warning collapse="true"}
 ## Solution
 
-By construction, $\text{Range}(X)=(-\pi/2,\,\pi/2)$. You can read more about the continuous uniform [here](https://sta240-f25.github.io/distributions/continuous-uniform.html), and we see see that the cdf is 
+By construction, $\text{Range}(X)=(-\pi/2,\,\pi/2)$. You can read more about the continuous uniform [here](https://anyakatsevich.github.io/sta240-s26.github.io/distributions/continuous-uniform.html), and we see see that the cdf is 
 
 $$
 F_X(x)
@@ -194,7 +194,7 @@ $$
 
 Newsflash: the cdf of the normal distribution is unknown. We can approximate it arbitrarily well using numerical methods, but we don't actually have a clean formula for it. The integral above is simply intractable.
 
-Anyway, the transformations involved here are again the [exponential and the natural log](https://sta240-f25.github.io/math/logexp.html), which we already saw in Task 1. Both are strictly-increasing. The exponential takes any real number and maps it to something *strictly positive*, so we see then that $\text{Range}(Y)=(0,\,\infty)$. Fixing $y>0$, we compute:
+Anyway, the transformations involved here are again the [exponential and the natural log](https://anyakatsevich.github.io/sta240-s26.github.io/math/logexp.html), which we already saw in Task 1. Both are strictly-increasing. The exponential takes any real number and maps it to something *strictly positive*, so we see then that $\text{Range}(Y)=(0,\,\infty)$. Fixing $y>0$, we compute:
 
 $$
   \begin{align*}

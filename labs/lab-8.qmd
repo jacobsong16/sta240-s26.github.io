@@ -9,7 +9,7 @@ editor:
 
 When we call `rnorm` or `rgamma` or `rpois` to generate random numbers from one of our special distributions, what is the computer actually doing? How do we program a computer to generate random numbers that behave according to some pre-defined distribution? 
 
-At the end of the day, all simulation methods revolve around a simple principle: "simulate from the standard uniform and then apply a [transformation](https://sta240-f25.github.io/labs/lab-7.html)." We statisticians take from granted that the computer scientists have devised good methods for generating random numbers from Unif(0, 1). The [*Mersenne Twister*](https://en.wikipedia.org/wiki/Mersenne_Twister) is a popular algorithm. Given that we can generate random numbers from the standard uniform, we need to figure out how to transform them into a batch of new random numbers that follow the distribution we want: normal, gamma, Cauchy, whatever.
+At the end of the day, all simulation methods revolve around a simple principle: "simulate from the standard uniform and then apply a [transformation](https://anyakatsevich.github.io/sta240-s26.github.io/labs/lab-7.html)." We statisticians take from granted that the computer scientists have devised good methods for generating random numbers from Unif(0, 1). The [*Mersenne Twister*](https://en.wikipedia.org/wiki/Mersenne_Twister) is a popular algorithm. Given that we can generate random numbers from the standard uniform, we need to figure out how to transform them into a batch of new random numbers that follow the distribution we want: normal, gamma, Cauchy, whatever.
 
 # Task 0
 

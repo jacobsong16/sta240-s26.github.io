@@ -2,6 +2,6 @@ A point is chosen at random on a line segment of length $L$. Interpret this stat
 
 ::: {.callout-tip collapse="true"}
 ## Hint
-It might help to read about the [continuous uniform distribution](https://sta240-f25.github.io/distributions/continuous-uniform.html).
+It might help to read about the [continuous uniform distribution](https://anyakatsevich.github.io/sta240-s26.github.io/distributions/continuous-uniform.html).
 :::
 

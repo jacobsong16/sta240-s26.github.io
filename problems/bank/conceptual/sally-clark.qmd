@@ -1,9 +1,9 @@
-Here are some short readings about [the case of Sally Clark and Roy Meadow](https://sta240-f25.github.io/slides/2025-08-25-welcome.html#/sally-clark-1964---2007), as well as something called the *prosecutor's fallacy*:
+Here are some short readings about [the case of Sally Clark and Roy Meadow](https://anyakatsevich.github.io/sta240-s26.github.io/slides/2025-08-25-welcome.html#/sally-clark-1964---2007), as well as something called the *prosecutor's fallacy*:
 
 - Grimes (2023): "[Bad Science and Bad Statistics in the Courtroom Convict Innocent People](https://www.scientificamerican.com/article/bad-science-and-bad-statistics-in-the-courtroom-convict-innocent-people/?utm_source=chatgpt.com)," *Scientific American*;
 - Carriquiry (2018): "[Misuse of statistics in the courtroom: the Sally Clark case](https://forensicstats.org/blog/2018/02/16/misuse-statistics-courtroom-sally-clark-case/?utm_source=chatgpt.com)," CSAFE;
-- Westreich & Iliinsky (2014): "[Epidemiology visualized: the prosecutor's fallacy](https://sta240-f25.github.io/readings/westreich-iliinsky-2014-aje.pdf)," *American Journal of Epidemiology*;
-- [AP Dawid](https://en.wikipedia.org/wiki/Philip_Dawid)'s [statement](https://sta240-f25.github.io/readings/dawid-clark-statement.pdf) during the Clark appeal.
+- Westreich & Iliinsky (2014): "[Epidemiology visualized: the prosecutor's fallacy](https://anyakatsevich.github.io/sta240-s26.github.io/readings/westreich-iliinsky-2014-aje.pdf)," *American Journal of Epidemiology*;
+- [AP Dawid](https://en.wikipedia.org/wiki/Philip_Dawid)'s [statement](https://anyakatsevich.github.io/sta240-s26.github.io/readings/dawid-clark-statement.pdf) during the Clark appeal.
 
 Please do the following:
 
