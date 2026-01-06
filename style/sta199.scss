@@ -93,3 +93,18 @@ div.sourceCode pre.sourceCode {
 .sidebar a.sidebar-item-text:visited {
   color: #fff !important;
 }
+
+#quarto-sidebar .sidebar-tools a,
+#quarto-sidebar .sidebar-tools a i,
+#quarto-sidebar .sidebar-tools a svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;   /* for svg icons */
+}
+
+/* Hover state */
+#quarto-sidebar .sidebar-tools a:hover,
+#quarto-sidebar .sidebar-tools a:hover i,
+#quarto-sidebar .sidebar-tools a:hover svg {
+  color: rgba(255, 255, 255, 0.80) !important;
+  fill: rgba(255, 255, 255, 0.80) !important;
+}
