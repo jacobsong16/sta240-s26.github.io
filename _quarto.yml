@@ -208,15 +208,24 @@ format:
   html:
     mainfont: Atkinson Hyperlegible
     highlight-style: a11y-light
-
-theme:
-  light: [cosmo, style/sta199.scss]
-#  dark: [cosmo, style/sta199.scss, style/dark.scss]
-linkcolor: "#798b93"
-toc: true
-code-copy: hover
-code-link: true
-code-overflow: wrap
+    theme:
+      light: [cosmo, style/sta199.scss]
+      #  dark: [cosmo, style/sta199.scss, style/dark.scss]
+    linkcolor: "#798b93"
+    toc: true
+    code-copy: hover
+    code-link: true
+    code-overflow: wrap
+    
+  # pdf:
+  #   documentclass: article
+  #   colorlinks: true
+  #   linkcolor: mylink
+  #   urlcolor: mylink
+  #   citecolor: mylink
+  #   header-includes:
+  #     - \usepackage{xcolor}
+  #     - \definecolor{mylink}{HTML}{798B93}
 
 execute:
   freeze: auto

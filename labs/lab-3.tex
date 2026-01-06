@@ -1,0 +1,479 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{xcolor}
+\definecolor{mylink}{HTML}{798B93}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Lab 3},
+  colorlinks=true,
+  linkcolor={mylink},
+  filecolor={Maroon},
+  citecolor={mylink},
+  urlcolor={mylink},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Lab 3}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Due Thursday September 18 at 11:59 PM}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-note-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+This assignment was adapted from:
+
+\begin{itemize}
+\tightlist
+\item
+  Meng, Xiao-Li (2023):
+  ``\href{https://doi.org/10.51387/22-NEJSDS6}{Double your variance,
+  dirtify your Bayes, devour your pufferfish, and draw your
+  kidstrogram},'' \emph{The New England Journal of Statistics in Data
+  Science}, vol 1 no 1.
+\end{itemize}
+
+\end{tcolorbox}
+
+\emph{Car Talk} (1977 - 2012) was a popular show on NPR. It featured a
+segment called the ``Puzzler,'' where the hosts would read a brain
+teaser and invite listeners to send in solutions for the chance to win a
+prize. Here is the text of one such Puzzler (original audio at around
+19:19
+\href{https://www.npr.org/2015/07/11/422108689/-1528-forget-the-car-find-a-convent}{here}):
+
+\begin{quote}
+There's a rare disease that's sweeping through your town. Of all the
+people who are exposed to it, 0.1\% of the people actually contract the
+disease. There are no symptoms until the disease actually occurs.
+However, there's a diagnostic test that can detect the presence of the
+disease up to a year before it strikes. You go to your doctor, and he
+administers the test. It comes out positive. You say, ``I'm done for!''
+Then you get a little bit encouraged. You say, ``Wait a minute, doc, is
+this test 100\% accurate?'' Your doctor responds, ``Well, not really.
+It's 95\% accurate.'' In other words, 5\% of the people who take the
+test will test positive but they don't really have the disease.
+\textbf{What are the chances that you actually have the disease?}
+\end{quote}
+
+In what follows, you may find some notation useful. Let \(D\) denote
+your true disease status, and \(T\) denote the result of your test. Then
+
+\[
+\begin{align*}
+    p &= P(D=+) && \text{(prevalence)}
+    \\
+    f_{-}&=P(T=-\,|\, D=+) && \text{(false negative rate)}
+    \\
+    f_{+}&=P(T=+\,|\, D=-) && \text{(false positive rate)}
+    \\
+    1-f_{-}&=P(T=+\,|\, D = +) && \text{(sensitivity)}
+    \\
+    1-f_{+}&=P(T=-\,|\, D = -) && \text{(specificity)}.
+\end{align*}
+\]
+
+\subsection{Task 1}\label{task-1}
+
+Before you read anything else below, try to solve the puzzler yourself.
+What do you come up with?
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-warning-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-warning-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Solution}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+Obviously you will struggle to come up with anything, and a lot depends
+on how you interpret ``It's 95\% accurate\ldots.5\% of the people who
+take the test will test positive but they don't really have the
+disease.'' My solution below interprets this as the false positive rate.
+The puzzler says nothing about the false negative rate, and so you can't
+actually answer the question because you do not have enough information.
+
+\end{tcolorbox}
+
+\subsection{Task 2}\label{task-2}
+
+Explain the correct way to solve this problem. Exactly what probability
+are we asked to compute, and what formula should we apply to do it? Does
+the prompt actually provide enough information to ultimately get the job
+done?
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-warning-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-warning-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Solution}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+The Puzzler asks us to compute \(P(D=+\,|\, T=+)\), which in principle
+we can do with Bayes' theorem:
+
+\[
+\begin{aligned}
+    P(D=+\,|\, T=+)
+    &=
+    \frac{P(T=+\,|\, D=+)P(D=+)}{P(T=+)}
+    \\
+    &=
+    \frac{P(T=+\,|\, D=+)P(D=+)}{P(T=+\,|\, D=+)P(D=+)+P(T=+\,|\, D=-)P(D=-)}
+    \\
+    &=
+    \frac{(1-f_-)p}{(1-f_-)p+f_+(1-p)}
+    .
+\end{aligned}
+\]
+
+Unfortunately, the show doesn't tell us \(f_-\), so you cannot actually
+compute the answer.
+
+\end{tcolorbox}
+
+\subsection{Task 3}\label{task-3}
+
+Beneath the fold is the solution that the hosts ultimately revealed.
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-tip-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{The show's solution}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+Original audio at around 20:30
+\href{https://www.npr.org/2015/07/11/422108689/-1528-forget-the-car-find-a-convent}{here}:
+
+\begin{quote}
+Let's say 1000 people take the test. Fifty people will test positive and
+yet they will not have it. One will test positive and have it. So your
+chances of actually having it, even though you tested positive, are one
+in 51, or a little less than 2\%.
+\end{quote}
+
+\end{tcolorbox}
+
+So, what do you think? Did they get it right? Explain how the show
+interpreted the information given in the Puzzler, and explain what
+arithmetic formula they implicitly applied in order to compute their
+answer.
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-warning-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-warning-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Solution}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+When they say ``0.1\% of the people actually contract the disease,''
+this refers to the prevalence, and when they say ``5\% of the people who
+take the test will test positive but they don't really have the
+disease,'' this refers to the false positive rate. So \(p=0.001\), and
+\(f_+=0.05\). Based only on these, they somehow came up with:
+
+\[
+\frac{p}{p+f_+}=\frac{0.001}{.001 + 0.05} = \frac{1}{51}\approx 0.0196.
+\]
+
+\end{tcolorbox}
+
+\subsection{Task 4}\label{task-4}
+
+Explain two things:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Under what conditions is the formula that the show used actually an
+  \emph{upper bound} on the correct answer?
+\item
+  Even though their number is not exactly correct, why might an upper
+  bound on the true probability still be a useful thing to calculate?
+\end{enumerate}
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-warning-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-warning-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Solution}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+By factoring \(1-f_-\) out of the numerator and denominator, we can
+rewrite the correct formula as
+
+\[
+P(D=+\,|\, T = +)=\frac{(1-f_-)p}{(1-f_-)p+f_+(1-p)}=\frac{p}{p+f_+\left(\frac{1-p}{1-f_-}\right)}.
+\]
+
+If \(p\leq f_-\), then \(1-f_-\leq 1-p\), which implies
+
+\[
+p+f_+\leq p+f_+\left(\frac{1-p}{1-f_-}\right).
+\]
+
+As a consequence, we see that
+
+\[
+P(D=+\,|\, T = +)
+=
+\frac{p}{p+f_+\left(\frac{1-p}{1-f_-}\right)}
+\leq \frac{p}{p+f_+},
+\quad \text{when }p\leq f_-
+.
+\]
+
+So the formula that the show applied is an upper bound for the true
+probability.
+
+Two types of errors are possible in a situation like this: treating a
+disease that is not there, or failing to treat a disease that is there.
+On balance, the second error is probably the worse of the two, so I
+would rather overestimate the probability that I have the disease than
+underestimate it.
+
+\end{tcolorbox}
+
+\subsection{Task 5}\label{task-5}
+
+So, the show's answer, while wrong, could still be potentially useful
+upper bound on the true probability. Neat! But how wrong is it, even? To
+get a sense of this,
+\href{https://anyakatsevich.github.io/sta240-s26.github.io/explainers/lineplot.html}{use
+\texttt{R}} to create some line plots with the prevalence
+\(p\in[0,\, 1]\) on the horizontal axis and the true and approximate
+probabilities for different values of \(f_-\) and \(f_+\) on the
+vertical axis. Mix-and-match \(f_-,\, f_+\in\{0.1,\, 0.2\}\), and
+comment on the difference between the two curves.
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, colframe=quarto-callout-warning-color-frame, coltitle=black, titlerule=0mm, opacityback=0, bottomtitle=1mm, left=2mm, colbacktitle=quarto-callout-warning-color!10!white, toptitle=1mm, breakable, toprule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Solution}, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6]
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{FPR }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\FloatTok{0.1}\NormalTok{, }\FloatTok{0.2}\NormalTok{)}
+\NormalTok{FNR }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\FloatTok{0.1}\NormalTok{, }\FloatTok{0.2}\NormalTok{)}
+\FunctionTok{par}\NormalTok{(}\AttributeTok{mfrow =} \FunctionTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{, }\DecValTok{2}\NormalTok{))}
+\ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\DecValTok{2}\NormalTok{)\{}
+  \ControlFlowTok{for}\NormalTok{ (j }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\DecValTok{2}\NormalTok{)\{}
+\NormalTok{    f\_plus }\OtherTok{=}\NormalTok{ FPR[i]}
+\NormalTok{    f\_minus }\OtherTok{=}\NormalTok{ FNR[j]}
+    \FunctionTok{curve}\NormalTok{(x }\SpecialCharTok{/}\NormalTok{ (x }\SpecialCharTok{+}\NormalTok{ f\_plus),}
+          \AttributeTok{col =} \StringTok{"blue"}\NormalTok{,}
+          \AttributeTok{xlab =} \StringTok{"p"}\NormalTok{, }
+          \AttributeTok{ylab =} \StringTok{""}\NormalTok{, }
+          \AttributeTok{xlim =} \FunctionTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{1}\NormalTok{),}
+          \AttributeTok{ylim =} \FunctionTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{1}\NormalTok{),}
+          \AttributeTok{main =} \FunctionTok{paste}\NormalTok{(}\StringTok{"FNR = "}\NormalTok{, f\_minus, }\StringTok{"; FPR = "}\NormalTok{, f\_plus))}
+    \FunctionTok{curve}\NormalTok{(x }\SpecialCharTok{/}\NormalTok{ (x }\SpecialCharTok{+}\NormalTok{ f\_plus }\SpecialCharTok{*}\NormalTok{ ((}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ x) }\SpecialCharTok{/}\NormalTok{ (}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ f\_minus))),}
+          \AttributeTok{col =} \StringTok{"red"}\NormalTok{, }\AttributeTok{add =} \ConstantTok{TRUE}\NormalTok{)}
+    \FunctionTok{legend}\NormalTok{(}\StringTok{"bottomright"}\NormalTok{,}
+           \FunctionTok{c}\NormalTok{(}\StringTok{"True Probability"}\NormalTok{, }\StringTok{"Car Talk Answer"}\NormalTok{),}
+           \AttributeTok{col =} \FunctionTok{c}\NormalTok{(}\StringTok{"red"}\NormalTok{, }\StringTok{"blue"}\NormalTok{),}
+           \AttributeTok{bty =} \StringTok{"n"}\NormalTok{,}
+           \AttributeTok{lty =} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{1}\NormalTok{)}
+\NormalTok{           )}
+\NormalTok{  \}}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\pandocbounded{\includegraphics[keepaspectratio]{lab-3_files/figure-pdf/unnamed-chunk-1-1.pdf}}
+
+When the prevalence is low (ie rare disease) the Car Talk curve is a
+very close upper bound on the true probability. For higher prevalence,
+the Car Talk curve is no longer an upper bound, and the curves get
+farther apart.
+
+\end{tcolorbox}
+
+
+
+
+\end{document}

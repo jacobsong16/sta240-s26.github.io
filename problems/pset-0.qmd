@@ -1,6 +1,7 @@
 ---
 title: "Problem Set 0"
 subtitle: Due Monday January 12 at 11:59PM
+draft: false
 editor: 
   mode: source
 ---
