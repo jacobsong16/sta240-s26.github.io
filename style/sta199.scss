@@ -94,18 +94,29 @@ div.sourceCode pre.sourceCode {
   color: #fff !important;
 }
 
-/* Make the sidebar tool icons/links white (and not translucent) */
-#quarto-sidebar .sidebar-tools .sidebar-tool,
-#quarto-sidebar .sidebar-tools .sidebar-tool i,
-#quarto-sidebar .sidebar-tools .sidebar-tool svg {
+/* Sidebar header tool icons (the links under the logo) */
+#quarto-sidebar .sidebar-header a.quarto-navigation-tool,
+#quarto-sidebar .sidebar-header a.quarto-navigation-tool .bi {
   color: #ffffff !important;
-  fill: #ffffff !important;   /* for svg icons */
   opacity: 1 !important;
 }
 
-#quarto-sidebar .sidebar-tools .sidebar-tool:hover,
-#quarto-sidebar .sidebar-tools .sidebar-tool:hover i,
-#quarto-sidebar .sidebar-tools .sidebar-tool:hover svg {
+#quarto-sidebar .sidebar-header a.quarto-navigation-tool:hover,
+#quarto-sidebar .sidebar-header a.quarto-navigation-tool:hover .bi {
   color: rgba(255, 255, 255, 0.80) !important;
-  fill: rgba(255, 255, 255, 0.80) !important;
+}
+
+#quarto-sidebar .sidebar-header a.quarto-navigation-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  margin: 0 0.2rem;
+}
+
+#quarto-sidebar .sidebar-header a.quarto-navigation-tool:hover {
+  background: rgba(255, 255, 255, 0.22);
 }
