@@ -1,6 +1,6 @@
 ---
 title: "STA 240 Probability for Statistical Inference"
-subtitle: "Duke University Fall 2025"
+subtitle: "Duke University Spring 2026"
 execute: 
   freeze: false
 editor_options: 
