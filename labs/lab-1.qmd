@@ -28,11 +28,23 @@ During the semester, I will summarize the basic `R` skills we need in a series o
 
 Please dip into those as needed.
 
+To use R/RStudio, you can either use the Duke Container Manager or download the necessary applications here. Note: The R/RStudio in the containers comes with `TinyTeX` already downloaded. So, if you download the application and want to use LaTeX in your files, run the following command (and whatever subsequent commands you are prompted to run) in the console at the bottom of your RStudio window:
+
+```{r}
+#| eval: false
+tinytex::install_tinytex()
+```
+
+::: callout-tip
+## Once is enough
+If you've run the above command once, you don't need to worry about running it again every time you use RStudio.
+:::
+
 In today's lab, you will use `R` to simulate some basic random experiments and approximate probabilities. Along the way, you will get a light workout with if-else statements and for loops.
 
 ::: callout-tip
 ## Download the submission template
-Go to the files in Canvas and download the blank Quarto file you will use to create your write-up. Once you have this file, upload it to your container and get crackin'!
+Go to the files in Canvas and download the blank Quarto file you will use to create your write-up. Once you have this file, upload it to your container or local RStudio and get crackin'!
 :::
 
 # Task 1 (I do it)
