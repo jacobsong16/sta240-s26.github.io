@@ -126,7 +126,12 @@ Now, imagine that a five-card hand is randomly dealt to you from a well-shuffled
 ::: {.callout-tip collapse="true"}
 ## Hint
 
-There are many correct ways to do this, but you might find the [`any`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/any.html) function helpful.
+There are many correct ways to do this, but you might find the [`any`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/any.html) function helpful. Additionally, the `%in%` operator may be of some use; observe the following outputs:
+
+```{r}
+3 %in% c(1, 2, 3, 4)
+"H" %in% c("S", "T", "A", "T")
+```
 :::
 
 
